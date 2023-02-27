@@ -1,0 +1,15 @@
+Version de PHP: 7.4.14 (cli)
+
+Version de MySQL: 10.4.24-MariaDB
+
+Instrucciones para ejecucion del proyecto:
+
+- Ejecutar panel de control de XAMPP v3.3.0
+- Iniciar Apache y MySQL
+- Presional "Admin" en MySQL para ingresar al panel de PhpMyAdmin
+- Crear bases de datos para: Candidatos, Storing, y Localizacion
+- Luego importar candidatos.sql en Candidatos y storing.sql en Storing
+- Luego importar region_cl en Localizacion y luego comuna_cl en Localizacion (en ese orden)
+- Pegar la carpeta "votingSystem" en C:\xampp\htdocs
+- Posicionarse en index.php, click derecho sobre el código y presionar PHP Server: Serve project 
+utilizando la extensión PHP Server de Visual Studio Code .  
